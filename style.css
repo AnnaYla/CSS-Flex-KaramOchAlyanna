@@ -3,11 +3,26 @@
 .nav-bar{
     background-color: aqua;
     font: arial 20px;
-
-    display:flex;
-    flex-direction: row; 
-
+    height: 30px;
 }
+
+.nav-bar ul{
+    display:flex; 
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.nav-bar li{
+    list-style: none;
+    transition: 10;
+    }
+a{
+    text-decoration: none;
+}
+ a:hover {
+      background: red;
+      color: #0b76ef;
+    }
 
 .container{
     display:flex;
